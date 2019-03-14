@@ -1,0 +1,147 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+div ul li {
+  display: inline-block;
+}
+
+div ul li:not(:first-child) {
+  padding-left: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.zindex-1 {
+  z-index: 9999;
+}
+
+.zindex-2 {
+  z-index: 9998;
+}
+
+.zindex-3 {
+  z-index: 9997;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.landing {
+  height: 600px;
+  background-color: black;
+}
+
+.landingOverlay {
+  background-color: black;
+  opacity: 0.1;
+  height: 100%;
+  width: 100%;
+}
+
+.landingName {
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 6rem;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.landingDescription {
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 1rem;
+}
+
+.landingImg {
+  height: 100%;
+  background-size: contain;
+  background: url("https://images.unsplash.com/photo-1525264512745-a9701646196a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contentHeaderName {
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 0;
+  color: rgb(171, 142, 96);
+}
+
+.contentHeaderDescription {
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.6);
+}
+
+.contentHeaderUL {
+  padding-left: 0;
+}
+
+.contentBox {
+  max-height: 2200px;
+  overflow: hidden;
+}
+
+.somethingPersonalBox {
+  max-height: 600px;
+  background-color: #4b6177;
+  font-size: 2rem;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-top: 90px;
+}
+
+.somethingPersonalIntro {
+  font-size: 2rem;
+  color: #769bc1;
+  line-height: normal;
+  padding-top: 40px;
+}
+
+.somethingPersonalName {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.somethingPersonalDescription {
+  color: black;
+  font-size: 1.75rem;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+}
+
+.clientImg {
+  height: 100%;
+  background-size: contain;
+  background: url("https://images.unsplash.com/photo-1490052961415-96ffc1244aa0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.clientNames {
+  font-size: 2rem;
+  color: white;
+}
+
+.col-lg-3.col-sm-6:not(:first-child) img {
+  padding-left: 15px;
+}
+
+.col-lg-3.col-sm-6 img {
+  padding-top: 15px;
+}
