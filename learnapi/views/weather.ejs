@@ -1,0 +1,10 @@
+<h1>Weather</h1>
+
+<% var weather = data["weather"]; %>
+<% var main = data["main"]; %>
+<% const main_keys = Object.keys(main); %>
+
+
+<% main_keys.forEach(function(key){ %>
+  <p>  <%= key %>: <%= main[key] %> </p>
+<% }); %>
